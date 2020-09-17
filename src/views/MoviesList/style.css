@@ -1,0 +1,17 @@
+/*Posicionamento da listagem de filmes*/
+
+.moviesList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moviesList article{
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

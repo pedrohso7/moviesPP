@@ -1,0 +1,54 @@
+.movie{
+    /*Posicionamento e estilização do background*/
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 30px;
+}
+
+.movie h2{
+    /*Posicionamento e estilização do Título do filme*/
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    
+    background-image: url('../../assets/rectangle-black-button-box.jpg');
+    background-position: center;
+
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(203, 226, 233);
+}
+
+.movie img{
+    /*Posicionamento da Imagem do filme*/
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.movie p{
+    /*Posicionamento e estilização do conteúdo da Sinopse*/
+    margin-left: 49px;
+    width: 88%;
+    margin-top: 27px;
+    text-align: justify;
+    justify-content: center;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

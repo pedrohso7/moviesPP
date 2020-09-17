@@ -1,0 +1,28 @@
+.header{
+    /*Estilização do background do Header*/
+    width: 100%;
+
+    background-image: url('../../assets/header-background-galaxy.jpg');
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p{
+    /*Estilização do título/nome do site*/
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header .headerBottons{
+    /*Posicionando Botões no Header*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}

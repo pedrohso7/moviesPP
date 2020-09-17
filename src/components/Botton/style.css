@@ -1,0 +1,68 @@
+.botton{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.botton:hover{
+    /*Transição Default do botão*/
+    opacity: 0.6;
+
+    cursor: pointer;
+
+    transition: all 0.6ms ;
+}
+
+.botton .categoryBotton{
+    /*Estilo dos Botões da tela Home*/
+    display: flex;
+    justify-content: center;
+
+    width: 310px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    background-image: url('../../assets/rectangle-black-button-box.jpg');
+    background-position: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.botton .headerBotton{
+    /*Estilo dos botões do Header*/
+    display: flex;
+    justify-content: center;
+
+    width: 90px;
+    height: 13px;
+
+    padding: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+    
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration: none;
+
+    background-image: url('../../assets/rectangle-black-button-box.jpg');
+    background-position: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(16, 25, 39);
+
+    opacity: 0.9;
+}
